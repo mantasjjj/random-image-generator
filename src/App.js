@@ -40,7 +40,7 @@ class App extends React.Component {
             <div className="image">
                 <img className="image__img" src={this.state.url}></img>
                 <h3 className="image_title">{this.state.name}</h3>
-                <p className="image_desc">{this.state.desc}</p>
+                <p className="image_desc">{this.state.desc == null ? "This photo does not have a description" : this.state.desc}</p>
             </div>
             
         </div>
