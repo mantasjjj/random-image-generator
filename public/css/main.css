@@ -1,0 +1,132 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+.home {
+  height: 100vh;
+  padding: 40vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("https://miro.medium.com/max/4000/1*QqfEHlLdVVZIaytTsupcbw.jpeg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("https://miro.medium.com/max/4000/1*QqfEHlLdVVZIaytTsupcbw.jpeg") center top;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home__welcome {
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+}
+
+.home__welcome-text {
+  color: orange;
+}
+
+.home__hi {
+  font-size: 4rem;
+  color: #fff;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.home__desc {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.content__text {
+  text-align: center;
+  margin: 2rem;
+}
+
+.content .btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #272727;
+  border: 2px solid #272727;
+  margin-bottom: 2rem;
+}
+
+.content .btn:hover {
+  background-color: #d3d3d3;
+  border: 2px solid #d3d3d3;
+}
+
+.content .btn:active {
+  background-color: #d3d3d3 !important;
+  border: 2px solid #d3d3d3;
+}
+
+.content .btn:focus {
+  background-color: #d3d3d3;
+  border: 2px solid #d3d3d3;
+}
+
+.image__img {
+  max-width: 400px;
+  max-height: 400px;
+  margin-bottom: 1.4rem;
+}
+
+.image__desc {
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  position: relative;
+}
+
+.social-icons a {
+  padding: 0.4rem !important;
+  text-decoration: none !important;
+  color: #272727;
+}
+
+.social-icons a:hover {
+  color: #d3d3d3 !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer {
+  margin-top: 3rem;
+}
+
+.footer-copy {
+  position: relative;
+  right: 1rem;
+  float: right;
+  bottom: 2rem;
+}
+
+.arrow {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 20vh;
+}
