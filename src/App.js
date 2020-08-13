@@ -36,6 +36,7 @@ class App extends React.Component {
       return (
         <div className="content">
             <h1 className="content__text">Click Generate to get a random image.</h1>
+            <p className="content__para">The images refresh every 5 minutes, so don't worry if you're seeing the same ones.</p>
             <button type="submit" className="btn btn-primary" onClick={this.handleClick}>Generate</button>
             <div className="image">
                 <img className="image__img" src={this.state.url}></img>
