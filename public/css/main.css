@@ -6,6 +6,7 @@
 }
 
 .card {
+  margin-bottom: 2rem;
   width: 25rem;
   display: inline-block !important;
 }
@@ -25,6 +26,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.content__para {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 body {
@@ -53,7 +59,7 @@ h1, h2, h3 {
 }
 
 .home__welcome {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #fff;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -80,6 +86,12 @@ h1, h2, h3 {
   color: #fff;
   font-size: 3rem;
   margin-top: 20vh;
+}
+
+.home__arrow:hover {
+  color: #d3d3d3;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .content {
@@ -157,10 +169,109 @@ h1, h2, h3 {
 }
 
 .footer {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .footer-copy {
   position: absolute;
   right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 25vh;
+  }
+  .home__welcome {
+    font-size: 2rem;
+    color: #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+  }
+  .home__welcome-text {
+    color: orange;
+  }
+  .home__hi {
+    font-size: 2.5rem;
+    color: #fff;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+  .home__desc {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .home__arrow {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 7vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 25vh;
+  }
+  .home__welcome {
+    font-size: 2.5rem;
+    color: #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+  }
+  .home__welcome-text {
+    color: orange;
+  }
+  .home__hi {
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+  .home__desc {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .home__arrow {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home {
+    padding: 35vh;
+  }
+  .home__welcome {
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+  }
+  .home__welcome-text {
+    color: orange;
+  }
+  .home__hi {
+    font-size: 4rem;
+    color: #fff;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+  .home__desc {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  .home__arrow {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .home {
+    padding: 40vh;
+  }
 }

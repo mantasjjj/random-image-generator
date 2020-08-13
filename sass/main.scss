@@ -1,4 +1,4 @@
-@import 'variables', 'root', 'responsive';
+@import 'variables', 'root';
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,7 +27,7 @@ h1, h2, h3{
     background-size: cover;
 
     &__welcome{
-        font-size: 2.5rem;
+        font-size: 3rem;
         color: #fff;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
@@ -54,6 +54,11 @@ h1, h2, h3{
         color: #fff;
         font-size: 3rem;
         margin-top: 20vh;
+    
+        &:hover{
+           color: $secondary-color;
+           @include transition-ease;
+        }
     }
 
     overflow: hidden;
@@ -130,10 +135,13 @@ h1, h2, h3{
 }
 
 .footer{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 
     &-copy{
         position: absolute;
         right: 2rem;
     }
 }
+
+
+@import 'responsive';

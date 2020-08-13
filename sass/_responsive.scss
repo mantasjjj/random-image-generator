@@ -1,0 +1,110 @@
+@include media-sm{
+    .home{
+        padding: 25vh;
+        &__welcome{
+            font-size: 2rem;
+            color: #fff;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #fff;
+    
+            &-text{
+                color: orange
+            }
+        }
+    
+        &__hi{
+            font-size: 2.5rem;
+            color: #fff;
+            padding-bottom: 0.1rem;
+            margin-bottom: 0.1rem;
+        }
+    
+        &__desc{
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    
+        &__arrow{
+            color: #fff;
+            font-size: 1.5rem;
+            margin-top: 7vh;
+        }
+    }
+}
+
+@include media-md{
+    .home{
+        padding: 25vh;
+        &__welcome{
+            font-size: 2.5rem;
+            color: #fff;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #fff;
+    
+            &-text{
+                color: orange
+            }
+        }
+    
+        &__hi{
+            font-size: 3rem;
+            color: #fff;
+            padding-bottom: 0.1rem;
+            margin-bottom: 0.1rem;
+        }
+    
+        &__desc{
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    
+        &__arrow{
+            color: #fff;
+            font-size: 2rem;
+            margin-top: 10vh;
+        }
+    }
+}
+
+@include media-lg{
+    .home{
+        padding: 35vh;
+        &__welcome{
+            font-size: 3rem;
+            color: #fff;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #fff;
+    
+            &-text{
+                color: orange
+            }
+        }
+    
+        &__hi{
+            font-size: 4rem;
+            color: #fff;
+            padding-bottom: 0.1rem;
+            margin-bottom: 0.1rem;
+        }
+    
+        &__desc{
+            color: #fff;
+            font-size: 1.3rem;
+        }
+    
+        &__arrow{
+            color: #fff;
+            font-size: 3rem;
+            margin-top: 10vh;
+        }
+    }
+}
+
+@include media-xl{
+    .home{
+        padding: 40vh;
+    }
+}

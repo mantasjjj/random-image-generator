@@ -1,4 +1,5 @@
 .card{
+    margin-bottom: 2rem;
     width: 25rem;
     display: inline-block !important;
 
@@ -15,4 +16,9 @@
 .content{
     text-align: center;
     align-items: center;
+
+    &__para{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
