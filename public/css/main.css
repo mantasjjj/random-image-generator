@@ -5,6 +5,28 @@
   padding: 0;
 }
 
+.card {
+  width: 25rem;
+  display: inline-block !important;
+}
+
+.card-img-top {
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-time {
+  margin: 1.5rem;
+}
+
+.content {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -54,6 +76,12 @@ h1, h2, h3 {
   font-size: 1.3rem;
 }
 
+.home__arrow {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 20vh;
+}
+
 .content {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -63,7 +91,14 @@ h1, h2, h3 {
 
 .content__text {
   text-align: center;
-  margin: 2rem;
+  margin-top: 2rem;
+}
+
+.content__para {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
 }
 
 .content .btn {
@@ -103,7 +138,10 @@ h1, h2, h3 {
 }
 
 .social-icons {
-  position: relative;
+  position: absolute;
+  left: 2rem;
+  float: left;
+  margin-bottom: 1.5rem;
 }
 
 .social-icons a {
@@ -123,14 +161,6 @@ h1, h2, h3 {
 }
 
 .footer-copy {
-  position: relative;
-  right: 1rem;
-  float: right;
-  bottom: 2rem;
-}
-
-.arrow {
-  color: #fff;
-  font-size: 3rem;
-  margin-top: 20vh;
+  position: absolute;
+  right: 2rem;
 }

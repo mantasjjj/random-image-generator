@@ -1,0 +1,18 @@
+.card{
+    width: 25rem;
+    display: inline-block !important;
+
+    &-img-top{
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    &-time{
+        margin: 1.5rem;
+    }
+}
+
+.content{
+    text-align: center;
+    align-items: center;
+}

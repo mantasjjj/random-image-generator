@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables', 'root', 'responsive';
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,6 +48,12 @@ h1, h2, h3{
     &__desc{
         color: #fff;
         font-size: 1.3rem;
+    }
+
+    &__arrow{
+        color: #fff;
+        font-size: 3rem;
+        margin-top: 20vh;
     }
 
     overflow: hidden;
@@ -107,7 +113,10 @@ h1, h2, h3{
 
 
 .social-icons {
-    position: relative;
+    position: absolute;
+    left: 2rem;
+    float: left;
+    margin-bottom: 1.5rem;
 
     a{
         padding: 0.4rem !important;
@@ -122,17 +131,9 @@ h1, h2, h3{
 
 .footer{
     margin-top: 3rem;
-}
 
-.footer-copy{
-    position: relative;
-    right: 1rem;
-    float: right;
-    bottom: 2rem;
-}
-
-.arrow{
-    color: #fff;
-    font-size: 3rem;
-    margin-top: 20vh;
+    &-copy{
+        position: absolute;
+        right: 2rem;
+    }
 }
