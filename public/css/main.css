@@ -139,6 +139,15 @@ h1, h2, h3 {
   border: 2px solid #d3d3d3;
 }
 
+.content__hr {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #272727;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 .image__img {
   max-width: 400px;
   max-height: 400px;

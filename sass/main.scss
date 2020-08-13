@@ -102,6 +102,15 @@ h1, h2, h3{
             border: 2px solid $secondary-color;
         }
     }
+
+    &__hr{
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        background-color: $primary-color;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .image{
