@@ -188,7 +188,10 @@ h1, h2, h3 {
 
 @media screen and (max-width: 768px) {
   .home {
-    padding: 25vh;
+    padding-top: 32vh;
+    padding-left: 10vh;
+    padding-right: 16vh;
+  }
   }
   .home__welcome {
     font-size: 1.5rem;
