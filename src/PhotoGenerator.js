@@ -48,7 +48,7 @@ class PhotoGenerator extends React.Component{
         return (
           <div className="content">
               <h1 className="content__text">Click Generate to get a random image.</h1>
-              <p className="content__para">The images refresh every 5 minutes, so don't worry if you're seeing the same ones.</p>
+              <p className="content__para">The images refresh every 30 minutes, so don't worry if you're seeing the same ones.</p>
               <hr className="content__hr"/>
               <button type="submit" className="btn btn-primary" onClick={this.handleClick}>Generate</button>
               
