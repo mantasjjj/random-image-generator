@@ -188,13 +188,10 @@ h1, h2, h3 {
 
 @media screen and (max-width: 768px) {
   .home {
-    padding-top: 32vh;
-    padding-left: 10vh;
-    padding-right: 16vh;
-  }
+    padding: 25vh;
   }
   .home__welcome {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fff;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
@@ -204,7 +201,7 @@ h1, h2, h3 {
     color: orange;
   }
   .home__hi {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #fff;
     padding-bottom: 0.1rem;
     margin-bottom: 0.1rem;
