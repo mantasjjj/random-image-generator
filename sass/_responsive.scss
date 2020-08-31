@@ -1,6 +1,9 @@
 @include media-sm{
     .home{
-        padding: 25vh;
+        padding-top: 32vh;
+        padding-left: 10vh;
+        padding-right: 16vh;
+    }
         &__welcome{
             font-size: 1.5rem;
             color: #fff;
